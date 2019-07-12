@@ -14,8 +14,8 @@ end
 def reduce(sourceArray, startingValue=nil)
   
   if startingValue
-    accumValue = startingValue
     i = 0
+    accumValue = startingValue
   else
     accumValue = sourceArray[0]
     i = 1
